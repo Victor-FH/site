@@ -51,6 +51,11 @@ p {
     display: none;
   }
 
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
   .burger-menu {
     font-size: 2rem;
     cursor: pointer;
@@ -65,6 +70,11 @@ p {
 
   #burger-toggle {
     display: none;
+  }
+
+  nav {
+    height: 50px;
+    padding: 10px;
   }
 
   nav ul {
@@ -107,6 +117,10 @@ p {
 
 @media (width >= 700px) {
   .burger-menu {
+    display: none;
+  }
+
+  .logo {
     display: none;
   }
 
