@@ -1,0 +1,23 @@
+h1 + p {
+  position: absolute;
+}
+
+@media (width < 700px) {
+  #BG_picture1 {
+    width: 100vw;
+  }
+
+  #BG_picture2 {
+    display: none;
+  }
+}
+
+@media (width >= 700px) {
+  #BG_picture2 {
+    display: none;
+  }
+
+  #BG_picture2 {
+    width: 100vw;
+  }
+}
