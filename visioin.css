@@ -1,29 +1,24 @@
-/* body {
-    margin: 0;
-    padding: 0;
-    background-image: url(img/vision_BG_picture2.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100vw;
-  } */
+main img:first-child {
+  width: 100%;
+}
 
-@media (width < 700px) {
-  #BG_picture1 {
-    width: 100vw;
-  }
+main img:nth-child(2) {
+  display: none;
+}
 
-  #BG_picture2 {
-    display: none;
-  }
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 @media (width >= 700px) {
-  #BG_picture2 {
+  main img:first-child {
     display: none;
   }
 
-  #BG_picture2 {
-    width: 100vw;
+  main img:nth-child(2) {
+    display: block;
+    width: 100%;
   }
 }
