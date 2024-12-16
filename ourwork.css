@@ -48,4 +48,5 @@ img{
 .item-5{
   grid-row: 3/5;
   grid-column: 1/2;
+  height: 95%;
 }
