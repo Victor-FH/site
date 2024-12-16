@@ -1,6 +1,12 @@
-h1 + p {
-  position: absolute;
-}
+/* body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/vision_BG_picture2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+  } */
 
 @media (width < 700px) {
   #BG_picture1 {
