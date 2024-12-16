@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="get-in-touch.css" />
   </head>
   <body>
     <header>
@@ -25,28 +26,54 @@
     <main>
       <h1>we bring your home outside</h1>
 
-      <div class="cta"></div>
+      <div class="cta">
+        <a href="#form" class="cta-button">get in touch</a>
+      </div>
 
-      <section>
-        <h2>the process</h2>
-        <p>
-          Once you contact us or complete our form, a dialogue will be initiated between you and our team. We will work together to explore your dreams and visions for your garden, as well as the
-          elements you wish to incorporate. This collaborative process ensures that we achieve a shared understanding of the garden's design and implementation. Throughout the project, we will manage
-          all aspects, including the procurement of necessary components, the construction of the garden, and the installation of an automatic irrigation system to maintain the lushness of your
-          plants.
-        </p>
-        <img src="" alt="" />
+      <section class="the-process">
+        <div>
+          <h2>the process</h2>
+          <p>
+            Once you contact us or complete our form, a dialogue will be initiated between you and our team. We will work together to explore your dreams and visions for your garden, as well as the elements you wish to incorporate. This collaborative
+            process ensures that we achieve a shared understanding of the garden's design and implementation. Throughout the project, we will manage all aspects, including the procurement of necessary components, the construction of the garden, and
+            the installation of an automatic irrigation system to maintain the lushness of your plants.
+          </p>
+        </div>
+        <div>
+          <img src="/img/get-in-touch-img.webp" alt="Skitser hængt op på en væg" />
+        </div>
       </section>
 
-      <div class="form"></div>
+      <div class="form" id="form">
+        <p>Let us help you build your dream garden. Fill out this form and we will get back to you as soon as possible.</p>
+        <form action="tak.html" name="kontakt" netlify>
+          <div class="form-felt">
+            <label for="navn">your name:</label>
+            <input type="text" name="name" id="navn" />
+          </div>
 
-      <section>
-        <h3>contact us</h3>
-      </section>
+          <div class="form-felt">
+            <label for="email">email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+
+          <div class="form-felt">
+            <label for="nummer">phone number:</label>
+            <input type="tel" name="number" id="nummer" />
+          </div>
+
+          <div class="form-felt">
+            <label for="besked">message:</label>
+            <input type="text" name="message" id="besked" />
+          </div>
+
+          <button>get in touch</button>
+        </form>
+      </div>
     </main>
     <footer>
       <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-      <dotlottie-player src="https://lottie.host/ac3c0b24-d9db-4ad5-972e-c1ca25e28dd8/TEkATptXS5.lottie" background="transparent" speed="1" loop autoplay></dotlottie-player>
+      <dotlottie-player src="https://lottie.host/d049feeb-960d-4f02-8ef8-7efa783d7dd4/3rfvESUMs3.lottie" background="transparent" speed="1" loop autoplay></dotlottie-player>
     </footer>
   </body>
 </html>
