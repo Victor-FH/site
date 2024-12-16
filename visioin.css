@@ -1,23 +1,38 @@
-main img:first-child {
+#BG1 {
   width: 100%;
 }
 
-main img:nth-child(2) {
+#BG2 {
   display: none;
 }
 
 .text-overlay {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  margin: 0 40px;
+  top: 250px;
+}
+
+h1 {
+  font-size: 16vw;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin: 20px;
+}
+
+footer {
+  bottom: 10px;
+  position: fixed;
 }
 
 @media (width >= 700px) {
-  main img:first-child {
+  #BG1 {
     display: none;
   }
 
-  main img:nth-child(2) {
+  #BG2 {
     display: block;
     width: 100%;
   }
