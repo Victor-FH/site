@@ -3,7 +3,7 @@ h1 {
   font-size: 55pt;
   line-height: 110%;
   text-align: center;
-  margin: 25px 25px 20px 25px;
+  margin: 25px 25px 25px 25px;
 }
 h2 {
   font-size: 30pt;
@@ -12,6 +12,7 @@ h2 {
 }
 h2:hover {
   opacity: 100%;
+  cursor: pointer;
 }
 #modern_garden,
 #st_georges_hill,
@@ -20,9 +21,10 @@ h2:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 0.7rem;
-  margin: 3rem;
+  gap: 0.5rem;
+  margin: 2rem;
   object-fit: cover;
+  max-height: 450px;
 }
 img {
   width: 100%;
@@ -54,17 +56,17 @@ img {
 
 #st_georges_hill{
   position:absolute;
-  top: 434px;
+  top: 438px;
 }
 
 #copenhagen_garden{
   position:absolute;
-  top: 434px;
+  top: 438px;
 }
 
 #show_garden{
   position:absolute;
-  top: 434px;
+  top: 438px;
 }
 .hide {
   visibility: hidden;
