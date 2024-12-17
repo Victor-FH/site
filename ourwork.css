@@ -51,6 +51,21 @@ img {
   grid-column: 1/2;
   height: 95%;
 }
+
+#st_georges_hill{
+  position:absolute;
+  top: 434px;
+}
+
+#copenhagen_garden{
+  position:absolute;
+  top: 434px;
+}
+
+#show_garden{
+  position:absolute;
+  top: 434px;
+}
 .hide {
   visibility: hidden;
 }
