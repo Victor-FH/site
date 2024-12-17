@@ -10,7 +10,11 @@ h2 {
   margin-bottom: 10px;
 }
 
-.grid-container {
+.modern_garden,
+.st_georges_hill,
+.copenhagen_garden,
+.show_garden
+ {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -18,6 +22,8 @@ h2 {
   margin: 3rem;
   object-fit: cover;
 }
+
+
 
 img{
   width: 100%;
